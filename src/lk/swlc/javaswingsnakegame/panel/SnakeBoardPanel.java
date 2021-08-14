@@ -59,7 +59,7 @@ public class SnakeBoardPanel extends JPanel implements ActionListener,Runnable {
     }
 
     /**
-     * Make to Play Game
+     * start to play
      */
 
     private void startGame() {
@@ -95,7 +95,6 @@ public class SnakeBoardPanel extends JPanel implements ActionListener,Runnable {
 
             snake.move();
         }
-
         repaint();
     }
 
